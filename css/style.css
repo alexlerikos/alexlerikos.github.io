@@ -122,7 +122,7 @@ table {
     border-spacing: 0
 }
 body {
-    background: #fff;
+    background: #315B7E;
     font: 14px/21px"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
     -webkit-font-smoothing: antialiased;
@@ -149,7 +149,7 @@ h6 a {
 h1 {
     font-size: 46px;
     line-height: 50px;
-    margin-bottom: 14px
+    margin-bottom: 14px;
 }
 h2 {
     font-size: 35px;
@@ -164,7 +164,8 @@ h3 {
 h4 {
     font-size: 21px;
     line-height: 30px;
-    margin-bottom: 4px
+    margin-bottom: 4px;
+    color: #FFFAFA;
 }
 h5 {
     font-size: 17px;
@@ -691,7 +692,8 @@ h3 {
     font-size: 20px
 }
 h4 {
-    font-size: 50px
+    font-size: 35px
+
 }
 h5 {
     font-size: 16px
@@ -729,7 +731,8 @@ nav {
     display: block;
     background-color: #fff;
     width: 100%;
-    border-bottom: 1px solid #eee
+    border-bottom: 2px solid #000000;
+    
 }
 .nav ul {
     margin: 0 0 0 0!important
@@ -738,7 +741,7 @@ nav {
     display: inline
 }
 .nav a {
-    font-weight: bold
+    font-weight: bold: 
 }
 #logo {
     height: 35px;
@@ -757,7 +760,8 @@ nav {
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 15px;
-    float: left
+    float: left;
+    color: #000080;
 }
 .nav-logos .icon {
     line-height: 50px
@@ -776,9 +780,10 @@ nav {
 .nav-links a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
+    /*font-family: 'Exo 2', sans-serif;*/
     font-size: 1.1rem;
-    line-height: 2rem
+    line-height: 2rem;
+    color: #000080;
 }
 a,
 a:visited {
@@ -789,12 +794,13 @@ a.icon,
 a:visited.icon,
 a:active.icon {
     font-size: 17px;
-    color: #555;
+    color: #000080;
     font-weight: bold
+
 }
 a:hover.icon,
 a:focus.icon {
-    color: #222
+    color: #2F4F4F
 }
 hr.large {
     border: none;
@@ -831,7 +837,8 @@ h1.article-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.4em;
-    font-size: 18px
+    font-size: 18px;
+    color: #FFFAFA;
 }
 .article-content ol {
     font-size: 16px
@@ -892,7 +899,8 @@ div.output_stream pre {
     }
     .nav-logos h1 {
         float: none;
-        margin: 0 0 0 0
+        margin: 0 0 0 0;
+        color: #315B7E
     }
     .nav-logos ul {
         text-align: center
