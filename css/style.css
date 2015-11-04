@@ -322,7 +322,7 @@ img.scale-with-grid {
     margin-right: 0
 }
 .container {
-    width: 75%
+    width: 85%
 }
 .container .column,
 .container .columns {
@@ -769,17 +769,18 @@ nav {
     left: 0
 }
 .nav {
-    display: block;
+    display: inline block;
     background-color: #fff;
     width: 100%;
     border-bottom: 2px solid #000000;
     
 }
 .nav ul {
-    margin: 0 0 0 0!important
+    margin: 0 0 0 0 !important
 }
 .nav ul li {
-    display: inline
+    display: inline;
+    
 }
 .nav a {
     font-weight: bold: 
@@ -789,17 +790,18 @@ nav {
     border: 1px solid #555;
     float: left;
     line-height: 50px;
-    margin-top: 7px
+    margin-top: 7px;
+    margin-right: 100px;
 }
 .nav-logos {
-    float: left
+    float: left;
 }
 .nav-logos h1 {
     letter-spacing: -1px;
     /*font-family: 'Exo 2', sans-serif;*/
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 10px;
+    margin-left:  10px;
     margin-right: 15px;
     float: left;
     color: #000080;
@@ -812,10 +814,10 @@ nav {
     padding-right: 20px
 }
 .nav-links ul {
-    text-align: right
+    text-align: right;
 }
 .nav-links ul li {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 0 0 20px;
     line-height: 50px
 }
 .nav-links a {
@@ -940,7 +942,7 @@ div.output_stream pre {
     }
     .nav-logos h1 {
         float: none;
-        margin: 0 0 0 0;
+        margin: 0 0 0 0 ;
         color: #315B7E
     }
     .nav-logos ul {
@@ -950,7 +952,7 @@ div.output_stream pre {
         float: none;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 0 0 0
+        padding: 0 0 0 0 
     }
     .nav-links ul {
         text-align: center
@@ -970,7 +972,8 @@ div.output_stream pre {
     }
     .article-title {
         text-align: center;
-        float: none!important
+        float: none; /*!important*/
+        letter-spacing: .2rem;
     }
     .article-date {
         text-align: center;
