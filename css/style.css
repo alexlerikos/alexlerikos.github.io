@@ -122,7 +122,11 @@ table {
     border-spacing: 0
 }
 body {
-    background: #315B7E;
+        background: url(skyline2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     font: 14px/21px;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFAFA;
@@ -770,7 +774,7 @@ nav {
 }
 .nav {
     display: inline block;
-    background-color: #fff;
+    background-color: #34495e;
     width: 100%;
     border-bottom: 2px solid #000000;
     
@@ -804,7 +808,7 @@ nav {
     margin-left:  10px;
     margin-right: 15px;
     float: left;
-    color: #000080;
+    color: #ecf0f1;
 }
 .nav-logos .icon {
     line-height: 50px
@@ -826,7 +830,7 @@ nav {
     font-family: 'Exo 2', sans-serif;
     font-size: 1.1rem;
     line-height: 2rem;
-    color: #000080;
+    color: #ecf0f1;
 }
 a,
 a:visited {
@@ -837,7 +841,7 @@ a.icon,
 a:visited.icon,
 a:active.icon {
     font-size: 17px;
-    color: #000080;
+    color: #ecf0f1;
     font-weight: bold
 
 }
@@ -943,7 +947,7 @@ div.output_stream pre {
     .nav-logos h1 {
         float: none;
         margin: 0 0 0 0 ;
-        color: #315B7E
+        color: #ecf0f1
     }
     .nav-logos ul {
         text-align: center
