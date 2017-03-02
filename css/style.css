@@ -837,17 +837,27 @@ a:visited {
     text-decoration: none!important;
     font-weight: bold
 }
+a.link,
+a:visited.link,
+a:active.link {
+    font-size: 17px;
+    color: #2574a9;
+    font-weight: bold
+}
+a:hover.link,
+a:focus.link {
+    color: #7f8c8d
+}
 a.icon,
 a:visited.icon,
 a:active.icon {
     font-size: 17px;
     color: #ecf0f1;
     font-weight: bold
-
 }
 a:hover.icon,
 a:focus.icon {
-    color: #2F4F4F
+    color: #7f8c8d
 }
 hr.large {
     border: none;
